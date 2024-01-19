@@ -1,0 +1,35 @@
+.user-profile-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-profile-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile-detail {
+    margin-bottom: 25px;
+  }
+  
+  .user-profile-button2 {
+    padding: 10px 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  .user-profile-heading{
+    color:black;
+  }
+
+  .user-profile-button2:hover {
+    background-color: black;
+  }

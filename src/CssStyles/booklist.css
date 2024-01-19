@@ -1,0 +1,74 @@
+/* BookListingPage.css */
+
+.book-listing-container {
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+}
+
+.book-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.header-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.book-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+}
+
+.dashboard-button-container2 {
+    position: fixed; /* Set position to fixed */
+    top: 0; /* Position at the top of the viewport */
+    right: 10px; /* Adjust the right value as needed */
+}
+
+.dashboard-button-container2 button {
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-box h3,
+.book-box p {
+    color: #fff;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: white; /* Set text color to white */
+    background-color: transparent;
+    border: 1px solid white; /* Add a white border */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .header-container2 {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center-align items horizontally */
+        margin-top: 5px; /* Add margin for spacing */
+    }
+
+    .dashboard-button-container2 {
+        position: static; /* Change to static to allow vertical centering */
+        text-align: center; /* Center-align button */
+        margin-top: 5px; /* Add margin for spacing */
+        margin-bottom: 20px;
+    }
+}
